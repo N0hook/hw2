@@ -1,0 +1,93 @@
+ 
+      #main
+      {
+        display: flex;
+        align-items: center;
+        padding: 2%;
+        padding-top: 70px;
+
+      }
+
+      body {
+
+        min-height: 100vh; 
+        margin: 0;  
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        }
+  
+      
+      
+        section p {
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 120%;;
+        }
+  
+
+        #cerca_classifica {
+
+            margin-left: 10%;
+            font-size: 100%;
+            border-radius: 90px;
+            height: 40px;
+        }
+
+
+        .link
+        {
+          text-decoration: none;
+          color:rgb(67, 214, 56);
+          font-family:Verdana, Tahoma, sans-serif;
+          height: min-content;
+  
+        }
+
+        .posizione
+        {
+            padding-top: 2%;
+            font-weight: bold;
+        }
+
+       .visualizza_album
+       {
+         text-align: center;
+         display: inline-table;
+         width: 45%;
+         background-color: var(--primary-color);
+         padding-bottom: 3%;
+         margin-left: 2.4%;
+         margin-right: 2.4%;
+         margin-bottom: 3%;
+         margin-top: 3%;
+         border-radius: 20px;
+       }
+
+      .cover
+       {
+         width: 40%;
+         padding: 2%;        
+       }
+
+       .descrizione
+       {
+         position: relative;
+         top: auto;
+         text-align: center;
+         font-family: 'Courier New', Courier, monospace;
+         font-style: italic;
+         color:white;
+         padding-bottom: 3%;
+
+       }
+
+
+       .visualizza_album span
+       {
+         display: block;
+         text-align: center;
+         height: min-content;
+         font-size: 120%;
+         font-family: Verdana, Tahoma, sans-serif;
+         color:whitesmoke;
+       }
